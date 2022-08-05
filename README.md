@@ -99,3 +99,7 @@ This programming assignment will be graded based on the following metrics:
 ## Academic Integrity
 
 Please refer to the [University Academic Policies](https://regulations.utah.edu/academics/) for details about academic integrity.
+
+## Questions
+
+If you have any questions, please create an [issue page](https://github.com/tsung-wei-huang/ece5960-physical-design/issues). We highly encourage you discuss any implementation details with others in the issue page.
