@@ -102,4 +102,4 @@ Please refer to the [University Academic Policies](https://regulations.utah.edu/
 
 ## Questions
 
-If you have any questions, please create an [issue page](https://github.com/tsung-wei-huang/ece5960-physical-design/issues). We highly encourage you discuss any implementation details with others in the issue page.
+If you have any questions, please create an [issue page](https://github.com/tsung-wei-huang/ece5960-physical-design/issues). We highly encourage you discuss questions with others in the issue page.
