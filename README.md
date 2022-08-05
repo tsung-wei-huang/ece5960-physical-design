@@ -22,4 +22,38 @@ In the example circuit, we have a balance factor of `0.5` and three nets `n1`, `
 
 ## Output
 
-In the program output, you are asked to give the cut size, the sizes of $G_1$ and $G_2$, and the contents of $G_1$ and $G_2$ (i.e., cells). The following table gives the output format
+In the program output, you are asked to give the cut size, the sizes of $G_1$ and $G_2$, and the contents of $G_1$ and $G_2$ (i.e., cells). The following table gives the output format and a sample output:
+
+| Input Format | Example |
+| ------------ | ------- |
+| Cutsize = $s$<br> G1 size <br> [cells]+ <br> G2 size <br> [cells]+ | Cutsize = 5 <br> G1 3 <br> c1 c2 c3 ; <br> G2 3 <br> c4 c5 c6;|
+
+Note that the example solution may not be the optimal one.
+
+## Language
+
+You can implement this assignment using any language you like. However, we recommend `C` or `C++` for performance reason.
+
+## Platform
+
+You need to evaluate your program on the Linux server at `twhuang-server-01.ece.utah.edu`.
+
+Please email Dr. Huang (tsung-wei.huang at utah.edu) for creating an account to log in.
+
+
+## Program Command 
+
+Your program should support the following command-line parameters:
+
+
+```bash
+[executable file name] [input file name] [output file name]
+```
+
+For example:
+
+```bash
+~$ ./fm input_pa1/input_0.dat output_0.dat
+```
+
+## Checker 
