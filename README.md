@@ -12,8 +12,14 @@ $$
 
 ## Input
 
+Each input file starts with a balance factor $r$, followed by the description of $m$ nets. Each net description contains the keyword `NET`, followed by the net name and a list of the connected cells, and finally the symbol `;` denoting the end of the net description. 
+
 | Input Format | Example |
 | ------------ | ------- |
-| $r$ <br> NET NET_NAME [CELL_NAME]+; | 0.5 <br> NET n1 c2 c3 c4 ; <br> NET n2 c3 c6 ; <br> NET n3 c3 c5 c6 ;|
+| $r$ <br> NET NET_NAME [CELL_NAME]+; | 0.5 <br> NET n1 c2 c3 c4 ; <br> NET n2 c3 c6 ; <br> NET n3 c3 c5 c6 ; <br> NET n4 c1 c3 c5 c6 ; <br> NET n5 c2 c4 ; <br> NET n6 c4 c6 ; <br> NET n7 c5 c6 ;|
 
-Each input file starts with a balance factor $r$, followed by the description of $m$ nets. Each net description contains the keyword `NET`, followed by the net name and a list of the connected cells, and finally the symbol `;` denoting the end of the net description. In the example circuit, we have a balance factor of `0.5` and three nets `n1`, `n2`, and `n3`, where net `n1` has three cells `c1`, `c2`, `c3`, and `c4`, net `n2` has two cells `c3` and `c6`, and net `n3` has three cells `c3`, `c5`, and `c6`.
+In the example circuit, we have a balance factor of `0.5` and three nets `n1`, `n2`, and `n3`, where net `n1` has three cells `c1`, `c2`, `c3`, and `c4`, net `n2` has two cells `c3` and `c6`, net `n3` has three cells `c3`, `c5`, and `c6`, and so on.
+
+## Output
+
+In the program output, you are asked to give the cut size, the sizes of $G_1$ and $G_2$, and the contents of $G_1$ and $G_2$ (i.e., cells). The following table gives the output format
