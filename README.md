@@ -75,3 +75,27 @@ Congratulations! Legal Solution!!
 ```
 
 Note the above output is just an example.
+
+
+## Submission
+
+You need to submit a report by responding directly to this [issue page](https://github.com/tsung-wei-huang/ece5960-physical-design/issues/1). The report should contain the following section:
+
++ A section describing means to compile and run your code 
++ A section listing partition results in terms of cut size and runtime for each *PASSED* benchmark 
++ A section outlining the challenges you encountered and solved during the implementation
+
+You *DO NOT* need to submit any source code but place it under the folder `/home/your_account/PA1` in the server `twhuang-server-01.ece.utah.edu`, where `your_account` is your log-in account. The instructor will go to your folder to grade your code based on the instruction in your report.
+
+
+## Grading Policy
+
+This programming assignment will be graded based on the following metrics:
+
++ Correctness reported by the checker program
++ Solution quality of the partitioned result
++ Runtime performance of your program
+
+## Academic Integrity
+
+Please refer to the [University Academic Policies](https://regulations.utah.edu/academics/) for details about academic integrity.
