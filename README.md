@@ -57,3 +57,21 @@ For example:
 ```
 
 ## Checker 
+
+We have also provide a checker program for you to verify your program:
+
+```bash
+~$ ./checker/checker_linux [input_file] [output_file]
+```
+
+A successful verification will give you the following message:
+
+```bash
+[Check] Cut size = 143285 matched!
+[Check] Balance passed:: 189332(min) < 193156(G1), 189333(G2) < 193157(max) 
+=================================
+Congratulations! Legal Solution!!
+=================================
+```
+
+Note the above output is just an example.
