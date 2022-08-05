@@ -9,7 +9,7 @@
   + Office: MEB 2124
 + Time: MoWe / 03:00 PM - 04:20 PM
 + Room: WEB L114
-+ Webpage: [https://github.com/tsung-wei-huang/ece5960-physical-design/)
++ Webpage: https://github.com/tsung-wei-huang/ece5960-physical-design/
 + Scoring
   + Programming Assignment 1: 25 points
   + Programming Assignment 2: 25 points
