@@ -79,7 +79,7 @@ Note the above output is just an example.
 
 ## Submission
 
-You need to submit a report by responding directly to this [issue page](https://github.com/tsung-wei-huang/ece5960-physical-design/issues/1). The report should contain the following section:
+You need to submit a report by responding directly to [Programming Assignment #1 Submission Page](https://github.com/tsung-wei-huang/ece5960-physical-design/issues/1). The report should contain the following section:
 
 + A section describing means to compile and run your code 
 + A section listing partition results in terms of cut size and runtime for each *PASSED* benchmark 
@@ -87,7 +87,7 @@ You need to submit a report by responding directly to this [issue page](https://
 
 You *DO NOT* need to submit any source code but place it under the folder `/home/your_account/PA1` in the server `twhuang-server-01.ece.utah.edu`, where `your_account` is your log-in account. The instructor will go to your folder to grade your code based on the instruction in your report. If you wish to place your code somewhere else, please document it in your report.
 
-To help you stay on schedule, we will have two checkpoints. At each checkpoint, you will need to update your current results in a Markdown Table by responding to [Programming Assignment #2 Checkpoint Report](https://github.com/tsung-wei-huang/ece5960-physical-design/issues/2).
+To help you stay on schedule, we will have two checkpoints. At each checkpoint, you will need to update your current results in a Markdown Table by responding to [Programming Assignment #1 Checkpoint Report](https://github.com/tsung-wei-huang/ece5960-physical-design/issues/2).
 
 
 ## Grading Policy
