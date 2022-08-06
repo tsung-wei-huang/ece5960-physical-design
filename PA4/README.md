@@ -12,6 +12,19 @@ Steiner points are allowed to be used during routing.
 The objective of Steiner-tree routing is to minimize the total routing wirelength. 
 The total routing wirelength $W$ of a set of $P$ can be computed by the following:
 
+$$
+W = \sum_{pi \in P} w(p_i) + d
+$$
+
+where $p_i$ denotes an H-line or a V-line in the line segment set $P$ and $w(p_i)$ denotes the real routing wirelength of $p_i$. Here, $d$ denotes the disjoing cost evaluated by the following:
+
+$$
+d = 2 \times U \times H
+$$
+
+where $U$ is the number of unconnected pins and $H$ is the half perimeter wirelength (HPWL) of the chip boundary.
+
+Note that a route which has any net routed out of the chip boundary is a failed result.
 
 ## Input
 
