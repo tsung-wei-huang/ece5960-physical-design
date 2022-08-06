@@ -4,7 +4,7 @@
 
 # Class Logistics
 
-+ Instructor: [Dr. Tsung-Wei Huang][https://tsung-wei-huang.github.io/]
++ Instructor: [Dr. Tsung-Wei Huang](https://tsung-wei-huang.github.io/)
   + Email: tsung-wei.huang@utah.edu
   + Office: MEB 2124
 + Time: MoWe / 03:00 PM - 04:20 PM
