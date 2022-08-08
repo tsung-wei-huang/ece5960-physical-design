@@ -1,34 +1,66 @@
-# F-M Circuit Partitioning
+# Fixed-outline Floorplanning
 
 Due: TBD
 
 ## Problem Description
 
-Let $C = c_1, c_2, c_3, ..., c_n$ be a set of $n$ cells and $N = n_1, n_2, n_3, ..., n_m$ be a set of $m$ nets. Each net $n_i$ connects a subset of the cells in $C$. Your job in this programming assignment is to implement the 2-way [Fiduccia-Mattheyses algorithm](https://en.wikipedia.org/wiki/Fiduccia%E2%80%93Mattheyses_algorithm) that partitions the set $C$ of $n$ cells into two disjoing, balanced groups, $G_1$ and $G_2$, such that the overall cut size is minimized. No cell replication is allowed. The cust size $s$ is given by the number of nets among $G_1$ and $G_2$. For a given balance factor $r$, where $0 < r < 1$, the objective is to minimize the cut size $s$ while satisfying the following constraint:
+This programming assignment asks you to write a fixed-outline chip floorplanner that can handle hard macros. Given a set of rectangular macros and a set of nets, the floorplanner places all macros within a rectangular chip without any overlaps. We assume that the lower-left corner of this chip is the origin (0,0), and no space (channel) is needed between two different macros. The objective is to minimize the area of chip bounding box and the total net wirelength. The total wirelength $W$ of a set of nets $N$ can be computed by:
 
 $$
-n\times(1-r)/2 \leq |G_1|, |G_2| \leq n\times(1+r)/2 
+W = \sum_{n_i \in N} HPWL(n\_i)
 $$
+
+where HPWL denotes the half-perimeter wirelength, i.e., half of bounding box length, of net $n_i$. The objective for this problem is to minimize:
+
+$$
+Cost = \alpha A/A_{norm} + (1 - \alpha) W/W_{norm}
+$$
+
+where $A$ denotes the bounding-box area of the floorplan, Anorm is the average area, $W$ is the total wire length, Wnorm is the average wire length, and $\alpha$, $0 ≦ \alpha ≦ 1$, is a user defined ratio to balance the final area and wirelength. To compute $A_{norm}$ and $W_{norm}$, we can perturb the initial solution $m$ times to obtain $m$ floorplans and compute the average area $A_{norm}$ and the average wire length $W_{norm}$ of these floorplans. The value $m$ is proportional to the problem size. 
+
+Note that a floorplan which cannot fit into the given outline is not acceptable.
 
 ## Input
 
-Each input file starts with a balance factor $r$, followed by the description of $m$ nets. Each net description contains the keyword `NET`, followed by the net name and a list of the connected cells, and finally the symbol `;` denoting the end of the net description. 
+Each test case has two input files, input.block and input.nets. The first file (input.block) gives the outline size, the number of blocks, and the number of terminals defined in this file. Then the block dimensions are listed, followed by the terminal locations. The file format is as follows:
 
-| Input Format | Example |
-| ------------ | ------- |
-| $r$ <br> NET NET_NAME [CELL_NAME]+; | 0.5 <br> NET n1 c2 c3 c4 ; <br> NET n2 c3 c6 ; <br> NET n3 c3 c5 c6 ; <br> NET n4 c1 c3 c5 c6 ; <br> NET n5 c2 c4 ; <br> NET n6 c4 c6 ; <br> NET n7 c5 c6 ;|
+```text
+Outline: <outline width, outline height> 
+NumBlocks: <# of blocks> 
+NumTerminals: <# of terminals>
+<macro name> <macro width> <macro height> 
+... More macros
+<terminal name> terminal <terminal x coordinate> <terminal y coordinate> 
+... More terminals
+```
 
-In the example circuit, we have a balance factor of `0.5` and three nets `n1`, `n2`, and `n3`, where net `n1` has three cells `c1`, `c2`, `c3`, and `c4`, net `n2` has two cells `c3` and `c6`, net `n3` has three cells `c3`, `c5`, and `c6`, and so on.
+The second file gives the number of nets in the floorplan, followed by the terminal information for each net. The file format is as follows:
+
+```text
+NumNets: <# of nets>
+NetDegree: <# of terminals in this net> <terminal name>
+... More terminal names
+... More “NetDegree” and “terminal name”
+```
+
+The user-defined ratio α is given through the command-line argument. It ranges between 0 and 1.
 
 ## Output
 
-In the program output, you are asked to give the cut size, the sizes of $G_1$ and $G_2$, and the contents of $G_1$ and $G_2$ (i.e., cells). The following table gives the output format and a sample output:
+The output file (output.rpt) records the problem output. This report consists of six parts: (1) the final cost, (2) the total wirelength, (3) the chip area, (4) the chip width and height, (5) the runtime in seconds, and (6) the bounding-box coordinate for each macro (specified by the lower-left corner and upper-right corner). The report file format is shown above.
 
-| Input Format | Example |
-| ------------ | ------- |
-| Cutsize = $s$<br> G1 size <br> [cells]+ <br> G2 size <br> [cells]+ | Cutsize = 5 <br> G1 3 <br> c1 c2 c3 ; <br> G2 3 <br> c4 c5 c6;|
 
-Note that the example solution may not be the optimal one.
+```text
+<final cost>                     // Cost 
+<total wirelength>               // W
+<chip_area>                      // area = (chip_width) * (chip_height)
+<chip_width> <chip_height>       //resulting chip width and height
+<program_runtime>                //report the runtime in seconds
+<macro_name> <x1> <y1> <x2> <y2> 
+<macro_name> <x1> <y1> <x2> <y2> // (x1, y1): lower-left corner, (x2, y2): upper-right corner 
+... More macros
+```
+
 
 ## Language
 
@@ -45,15 +77,14 @@ Please email Dr. Huang (tsung-wei.huang at utah.edu) for creating an account to 
 
 Your program should support the following command-line parameters:
 
-
 ```bash
-[executable file name] [input file name] [output file name]
+[executable file name] [α value] [input.block name] [input.net name] [output file name]
 ```
 
 For example:
 
 ```bash
-~$ ./fm input_pa1/input_0.dat output_0.dat
+~$ ./floorplanner 0.5 input.block input.nets result.rpt
 ```
 
 ## Checker 
@@ -61,33 +92,50 @@ For example:
 We have also provide a checker program for you to verify your program:
 
 ```bash
-~$ ./checker/checker_linux [input_file] [output_file]
+~$ ./checker/checker_linux benchmark_name_only [your output file name]
+```
+
+For example, assume you want to verity the benchmark `ami33`:
+
+```bash
+~$ ls
+input_pa2 README.md checker
+~$ ./checker/checker.py ami33 ami33.rpt  
 ```
 
 A successful verification will give you the following message:
 
 ```bash
-[Check] Cut size = 143285 matched!
-[Check] Balance passed:: 189332(min) < 193156(G1), 189333(G2) < 193157(max) 
-=================================
-Congratulations! Legal Solution!!
-=================================
+######################################################################
+           input: ami33
+   num of blocks: 33
+num of terminals: 40
+     num of nets: 121
+            area: 1281056
+ area difference: 0.0
+            hpwl: 118706.0
+ hpwl difference: 0.0
+      total cost: 699881.0
+            SAME
+           LEGAL
+        IN BOUND
+######################################################################
 ```
 
-Note the above output is just an example.
+Note the above output is just an example. The name two lines tell if your result is legal.
 
 
 ## Submission
 
-You need to submit a report by responding directly to [Programming Assignment #1 Submission Page](https://github.com/tsung-wei-huang/ece5960-physical-design/issues/1). The report should contain the following section:
+You need to submit a report by responding directly to [Programming Assignment #1 Submission Page](https://github.com/tsung-wei-huang/ece5960-physical-design/issues/3). The report should contain the following section:
 
 + A section describing means to compile and run your code 
 + A section listing partition results in terms of cut size and runtime for each *PASSED* benchmark 
 + A section outlining the challenges you encountered and solved during the implementation
 
-You *DO NOT* need to submit any source code but place it under the folder `/home/your_account/PA1` in the server `twhuang-server-01.ece.utah.edu`, where `your_account` is your log-in account. The instructor will go to your folder to grade your code based on the instruction in your report. If you wish to place your code somewhere else, please document it in your report.
+You *DO NOT* need to submit any source code but place it under the folder `/home/your_account/PA2` in the server `twhuang-server-01.ece.utah.edu`, where `your_account` is your log-in account. The instructor will go to your folder to grade your code based on the instruction in your report. If you wish to place your code somewhere else, please document it in your report.
 
-To help you stay on schedule, we will have two checkpoints. At each checkpoint, you will need to update your current results in a Markdown Table by responding to [Programming Assignment #1 Checkpoint Report](https://github.com/tsung-wei-huang/ece5960-physical-design/issues/2).
+To help you stay on schedule, we will have two checkpoints. At each checkpoint, you will need to update your current results in a Markdown Table by responding to [Programming Assignment #2 Checkpoint Report](https://github.com/tsung-wei-huang/ece5960-physical-design/issues/4).
 
 
 ## Grading Policy
