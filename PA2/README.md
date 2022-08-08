@@ -61,6 +61,50 @@ The output file (output.rpt) records the problem output. This report consists of
 ... More macros
 ```
 
+## Example
+
+Consider the following example of four blocks (`A`, `B`, `C`, and `D`) and two nets (`A, C, D` and `B, D`):
+
+```text
+# input.block
+Outline: 120 120 
+NumBlocks: 4 
+NumTerminals: 0 
+A 40 50
+B 60 50 
+C 60 50 
+D 40 50
+```
+
+```text
+# input.nets
+NumNets: 2 
+NetDegree: 3 
+A
+C
+D 
+NetDegree: 2 
+B
+D
+```
+
+An example floorplan output is as follows:
+
+```
+5085 
+170 
+10000 
+100 100 
+0.24
+A 0 50 40 100 
+B 40 50 100 100 
+C 0 0 60 50 
+D 60 0 100 50
+```
+
+<img width="407" alt="Screen Shot 2022-08-08 at 4 48 18 PM" src="https://user-images.githubusercontent.com/13237509/183527432-3d2fef3d-8b11-4ec4-9e25-258171300c54.png">
+
+
 
 ## Language
 
