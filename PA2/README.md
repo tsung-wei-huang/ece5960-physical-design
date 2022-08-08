@@ -102,7 +102,8 @@ C 0 0 60 50
 D 60 0 100 50
 ```
 
-<img width="407" alt="Screen Shot 2022-08-08 at 4 48 18 PM" src="https://user-images.githubusercontent.com/13237509/183527432-3d2fef3d-8b11-4ec4-9e25-258171300c54.png">
+![](images/example.png)
+
 
 
 
