@@ -172,7 +172,7 @@ Note the above output is just an example. The name two lines tell if your result
 
 ## Submission
 
-You need to submit a report by responding directly to [Programming Assignment #1 Submission Page](https://github.com/tsung-wei-huang/ece5960-physical-design/issues/3). The report should contain the following section:
+You need to submit a report by responding directly to [Programming Assignment #2 Submission Page](https://github.com/tsung-wei-huang/ece5960-physical-design/issues/3). The report should contain the following section:
 
 + A section describing means to compile and run your code 
 + A section listing partition results in terms of cut size and runtime for each *PASSED* benchmark 
