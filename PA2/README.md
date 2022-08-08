@@ -47,7 +47,15 @@ The user-defined ratio α is given through the command-line argument. It ranges 
 
 ## Output
 
-The output file (output.rpt) records the problem output. This report consists of six parts: (1) the final cost, (2) the total wirelength, (3) the chip area, (4) the chip width and height, (5) the runtime in seconds, and (6) the bounding-box coordinate for each macro (specified by the lower-left corner and upper-right corner). The report file format is shown above.
+The output file (output.rpt) records the problem output. This report consists of six parts: 
+  1. The final cost
+  2. The total wirelength
+  3. The chip area
+  4. The chip width and height
+  5. The runtime in seconds
+  6. The bounding-box coordinate for each macro (specified by the lower-left corner and upper-right corner). 
+
+The report file format is shown below:
 
 
 ```text
