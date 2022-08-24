@@ -34,6 +34,6 @@ The class will teach you the following topipcs:
 | Lecture  | Topics | Slides | Assignment | Due | Note |
 | :-:      | :-:    | :-:    | :-: | :-:        | :-: | 
 | 2022/8/22 | Introduction | [lecture1](Lectures/lecture1.pdf) | - | - | - |
-| 2022/8/24 | Algorithm Complexity | [lecture2](Lecture2/lecture2.pdf) | - | - | - |
+| 2022/8/24 | Algorithm Complexity | [lecture2](Lectures/lecture2.pdf) | - | - | - |
 
 
