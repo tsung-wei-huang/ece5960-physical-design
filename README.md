@@ -35,5 +35,6 @@ The class will teach you the following topipcs:
 | :-:      | :-:    | :-:    | :-: | :-:        | :-: | 
 | 2022/8/22 | Introduction | [lecture1](Lectures/lecture1.pdf) | - | - | - |
 | 2022/8/24 | Algorithm Complexity | [lecture2](Lectures/lecture2.pdf) | - | - | - |
+| 2022/8/29 | Circuit Partition (I) | [lecture3](Lectures/lecture3.pdf) | - | - | - |
 
 
