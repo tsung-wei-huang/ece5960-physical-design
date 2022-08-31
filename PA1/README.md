@@ -1,6 +1,6 @@
 # F-M Circuit Partitioning
 
-Due: TBD
+Due: 9/21/2022 23:59 PM
 
 ## Problem Description
 
