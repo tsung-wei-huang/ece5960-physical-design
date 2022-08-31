@@ -12,6 +12,3 @@ Results:
 Congratulations! Legal Solution!!
 =================================
 
-
---
-Contact: Zhi-Wen Lin <lzw@eda.ee.ntu.edu.tw>
