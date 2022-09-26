@@ -43,7 +43,7 @@ The class will teach you the following topipcs:
 | 2022/9/14 | [Presentation: Circuit Partition](https://github.com/tsung-wei-huang/ece5960-physical-design/issues/9)  | - | - | [PA1 Checkpoint #2](https://github.com/tsung-wei-huang/ece5960-physical-design/issues/2)| - |
 | 2022/9/19 | Graph Algorithms (I) | [lecture7](Lectures/lecture7.pdf) | - | - | - |
 | 2022/9/21 | Graph Algorithms (II) | [lecture8](Lectures/lecture8.pdf) | - | [PA1 Final](https://github.com/tsung-wei-huang/ece5960-physical-design/issues/1) | - |
-| 2022/9/26 | Floorplan (I) | - | - | - | - |
+| 2022/9/26 | Floorplan (I) | [lecture9](Lectures/lecture9.pdf) | - | - | - |
 | 2022/9/28 | Floorplan (II) | - | - | - | - |
 
 
