@@ -1,6 +1,6 @@
 # Fixed-outline Floorplanning
 
-Due: TBD
+Due: 10/26 23:59 PM
 
 ## Problem Description
 
