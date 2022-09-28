@@ -46,5 +46,12 @@ The class will teach you the following topipcs:
 | 2022/9/26 | Floorplan (I) | [lecture9](Lectures/lecture9.pdf) | - | - | - |
 | 2022/9/28 | Floorplan (II) | [lecture10](Lecture1/lecture10.pdf) | - | - | - |
 | 2022/10/03 | Floorplan (III) |- | - | - | - |
+| 2022/10/05 | - |- | - | [PA2 Checkpoint #1](https://github.com/tsung-wei-huang/ece5960-physical-design/issues/4) | - |
+| 2022/10/10 | - |- | - | - | - |
+| 2022/10/12 | - |- | - | - | - |
+| 2022/10/17 | - |- | - | - | - |
+| 2022/10/19 | [Presentation: Floorplan](https://github.com/tsung-wei-huang/ece5960-physical-design/issues/10) |- | - | [PA2 Checkpoint #2](https://github.com/tsung-wei-huang/ece5960-physical-design/issues/4) | - |
+| 2022/10/24 | - |- | - | - | - |
+| 2022/10/26 | - |- | - | [PA2 Final](https://github.com/tsung-wei-huang/ece5960-physical-design/issues/3) | - |
 
 
