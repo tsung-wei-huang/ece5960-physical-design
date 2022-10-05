@@ -45,8 +45,8 @@ The class will teach you the following topipcs:
 | 2022/9/21 | Graph Algorithms (II) | [lecture8](Lectures/lecture8.pdf) | - | [PA1 Final](https://github.com/tsung-wei-huang/ece5960-physical-design/issues/1) | - |
 | 2022/9/26 | Floorplan (I) | [lecture9](Lectures/lecture9.pdf) | - | - | - |
 | 2022/9/28 | Floorplan (II) | [lecture10](Lectures/lecture10.pdf) | - | - | - |
-| 2022/10/03 | Floorplan (III) |- | - | - | - |
-| 2022/10/05 | - |- | - | [PA2 Checkpoint #1](https://github.com/tsung-wei-huang/ece5960-physical-design/issues/4) | - |
+| 2022/10/03 | PA1 Defrief | [debrief](Lectures/debrief-pa1.pdf) | - | - | - |
+| 2022/10/05 | Placement (I) | [lecture11](Lectures/lecture11.pdf) | - | [PA2 Checkpoint #1](https://github.com/tsung-wei-huang/ece5960-physical-design/issues/4) | - |
 | 2022/10/10 | - |- | - | - | - |
 | 2022/10/12 | - |- | - | - | - |
 | 2022/10/17 | - |- | - | - | - |
