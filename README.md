@@ -47,8 +47,8 @@ The class will teach you the following topipcs:
 | 2022/9/28 | Floorplan (II) | [lecture10](Lectures/lecture10.pdf) | - | - | - |
 | 2022/10/03 | PA1 Defrief | [debrief](Lectures/debrief-pa1.pdf) | - | - | - |
 | 2022/10/05 | Placement (I) | [lecture11](Lectures/lecture11.pdf) | - | [PA2 Checkpoint #1](https://github.com/tsung-wei-huang/ece5960-physical-design/issues/4) | - |
-| 2022/10/10 | - |- | - | - | - |
-| 2022/10/12 | - |- | - | - | - |
+| 2022/10/10 | Fall Break |- | - | - | - |
+| 2022/10/12 | Fall Break |- | - | - | - |
 | 2022/10/17 | Placement (II) | [lecture12](Lecture2/lecture12.pdf) | - | - | - |
 | 2022/10/19 | [Presentation: Floorplan](https://github.com/tsung-wei-huang/ece5960-physical-design/issues/10) |- | - | [PA2 Checkpoint #2](https://github.com/tsung-wei-huang/ece5960-physical-design/issues/4) | - |
 | 2022/10/24 | - |- | - | - | - |
