@@ -49,9 +49,15 @@ The class will teach you the following topipcs:
 | 2022/10/05 | Placement (I) | [lecture11](Lectures/lecture11.pdf) | - | [PA2 Checkpoint #1](https://github.com/tsung-wei-huang/ece5960-physical-design/issues/4) | - |
 | 2022/10/10 | - |- | - | - | - |
 | 2022/10/12 | - |- | - | - | - |
-| 2022/10/17 | - |- | - | - | - |
+| 2022/10/17 | Placement (II) | [lecture12](Lecture2/lecture12.pdf) | - | - | - |
 | 2022/10/19 | [Presentation: Floorplan](https://github.com/tsung-wei-huang/ece5960-physical-design/issues/10) |- | - | [PA2 Checkpoint #2](https://github.com/tsung-wei-huang/ece5960-physical-design/issues/4) | - |
 | 2022/10/24 | - |- | - | - | - |
 | 2022/10/26 | - |- | - | [PA2 Final](https://github.com/tsung-wei-huang/ece5960-physical-design/issues/3) | - |
 
+
+# Acknowledgement
+
+Course materials are modified based on the following resources:
+  + [Prof. Rob Rutenbar's VLSI Course on Coursera](https://www.coursera.org/instructor/robrutenbar)
+  + [Prof. Yao-Wen Chang's EDA Course on NTU](http://cc.ee.ntu.edu.tw/~ywchang/)
 
