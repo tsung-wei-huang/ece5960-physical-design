@@ -54,6 +54,7 @@ The class will teach you the following topipcs:
 | 2022/10/24 | Placement (III) | [lecture13](Lectures/lecture13.pdf) | - | - | - |
 | 2022/10/26 | Placement (IV) | [lecture14](Lectures/lecture14.pdf) | - | [PA2 Checkpoint #3](https://github.com/tsung-wei-huang/ece5960-physical-design/issues/4) | - |
 | 2022/10/30 | Placement (V) | [lecture15](Lectures/lecture15.pdf) | - | - | - |
+| 2022/11/02 | Routing (I) | [lecture16](Lectures/lecture16.pdf) | - | - | - |
 
 
 # Acknowledgement
