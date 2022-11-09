@@ -54,8 +54,9 @@ The class will teach you the following topipcs:
 | 2022/10/24 | Placement (III) | [lecture13](Lectures/lecture13.pdf) | - | - | - |
 | 2022/10/26 | Placement (IV) | [lecture14](Lectures/lecture14.pdf) | - | [PA2 Checkpoint #3](https://github.com/tsung-wei-huang/ece5960-physical-design/issues/4) | - |
 | 2022/10/30 | Placement (V) | [lecture15](Lectures/lecture15.pdf) | - | - | - |
-| 2022/11/02 | Routing (I) | [lecture16](Lectures/lecture16.pdf) | - | - | - |
+| 2022/11/02 | Routing (I) | [lecture16](Lectures/lecture16.pdf) | - | [PA2 Checkpoint #4](https://github.com/tsung-wei-huang/ece5960-physical-design/issues/4) | - |
 | 2022/11/02 | Routing (II) | [lecture17](Lectures/lecture17.pdf) | - | - | - |
+| 2022/11/02 | Routing (III) | [lecture18](Lectures/lecture18.pdf) | - | [PA2 Checkpoint #5](https://github.com/tsung-wei-huang/ece5960-physical-design/issues/4) | - |
 
 
 # Acknowledgement
@@ -63,4 +64,5 @@ The class will teach you the following topipcs:
 Course materials are modified based on the following resources:
   + [Prof. Rob Rutenbar's VLSI Course on Coursera](https://www.coursera.org/instructor/robrutenbar)
   + [Prof. Yao-Wen Chang's EDA Course on NTU](http://cc.ee.ntu.edu.tw/~ywchang/)
+  + [Prof. Andrew Kanhg's and Igor Markov's VLSI Course on UMichigan](http://vlsicad.eecs.umich.edu/KLMH/presentations.html)
 
