@@ -55,8 +55,11 @@ The class will teach you the following topipcs:
 | 2022/10/26 | Placement (IV) | [lecture14](Lectures/lecture14.pdf) | - | [PA2 Checkpoint #3](https://github.com/tsung-wei-huang/ece5960-physical-design/issues/4) | - |
 | 2022/10/30 | Placement (V) | [lecture15](Lectures/lecture15.pdf) | - | - | - |
 | 2022/11/02 | Routing (I) | [lecture16](Lectures/lecture16.pdf) | - | [PA2 Checkpoint #4](https://github.com/tsung-wei-huang/ece5960-physical-design/issues/4) | - |
-| 2022/11/02 | Routing (II) | [lecture17](Lectures/lecture17.pdf) | - | - | - |
-| 2022/11/02 | Routing (III) | [lecture18](Lectures/lecture18.pdf) | - | [PA2 Checkpoint #5](https://github.com/tsung-wei-huang/ece5960-physical-design/issues/4) | - |
+| 2022/11/07 | Routing (II) | [lecture17](Lectures/lecture17.pdf) | - | - | - |
+| 2022/11/09 | Routing (III) | [lecture18](Lectures/lecture18.pdf) | - | [PA2 Checkpoint #5](https://github.com/tsung-wei-huang/ece5960-physical-design/issues/4) | - |
+| 2022/11/14 | PM2 Review | - | - | - | - |
+| 2022/11/16 | [Presentation: Placement](https://github.com/tsung-wei-huang/ece5960-physical-design/issues/12) | - | - | [PA2 Checkpoint #5](https://github.com/tsung-wei-huang/ece5960-physical-design/issues/4) | - |
+| 2022/11/21 | Timing Analysis | - | - | - | - |
 
 
 # Acknowledgement
