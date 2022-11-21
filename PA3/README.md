@@ -1,6 +1,6 @@
 # Steiner-Tree Construction
 
-Due: TBD
+Due: 12/16
 
 ## Problem Description
 
@@ -74,7 +74,7 @@ For example:
 
 ## Submission
 
-You need to submit a report by responding directly to [Programming Assignment #4 Submission Page](https://github.com/tsung-wei-huang/ece5960-physical-design/issues/7). The report should contain the following section:
+You need to submit a report by responding directly to [Programming Assignment #3 Submission Page](https://github.com/tsung-wei-huang/ece5960-physical-design/issues/5). The report should contain the following section:
 
 + A section describing means to compile and run your code 
 + A section listing partition results in terms of routed pins and wirelength for each benchmark 
@@ -82,7 +82,7 @@ You need to submit a report by responding directly to [Programming Assignment #4
 
 You *DO NOT* need to submit any source code but place it under the folder `/home/your_account/PA4` in the server `twhuang-server-01.ece.utah.edu`, where `your_account` is your log-in account. The instructor will go to your folder to grade your code based on the instruction in your report. If you wish to place your code somewhere else, please document it in your report.
 
-To help you stay on schedule, we will have two checkpoints. At each checkpoint, you will need to update your current results in a Markdown Table by responding to [Programming Assignment #4 Checkpoint Report](https://github.com/tsung-wei-huang/ece5960-physical-design/issues/8).
+To help you stay on schedule, we will have two checkpoints. At each checkpoint, you will need to update your current results in a Markdown Table by responding to [Programming Assignment #3 Checkpoint Report](https://github.com/tsung-wei-huang/ece5960-physical-design/issues/6).
 
 
 ## Grading Policy
