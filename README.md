@@ -60,6 +60,8 @@ The class will teach you the following topipcs:
 | 2022/11/14 | PM2 Review | - | - | - | - |
 | 2022/11/16 | [Presentation: Placement](https://github.com/tsung-wei-huang/ece5960-physical-design/issues/12) | - | - | [PA2 Checkpoint #6](https://github.com/tsung-wei-huang/ece5960-physical-design/issues/4) | - |
 | 2022/11/21 | Timing Analysis (I) | [lecture19](Lectures/lecture19.pdf) | - | - | - |
+| 2022/11/23 | Happy Thanksgiving! | - | - | - | - |
+| 2022/11/28 | Timing Analysis (II) | [lecture20](Lectures/lecture20.pdf), [OpenTimer](Lectures/lecture20-OpenTimer.pdf) | - | - | - |
 
 
 # Acknowledgement
