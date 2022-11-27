@@ -58,7 +58,7 @@ The class will teach you the following topipcs:
 | 2022/11/07 | Routing (II) | [lecture17](Lectures/lecture17.pdf) | - | - | - |
 | 2022/11/09 | Routing (III) | [lecture18](Lectures/lecture18.pdf) | - | [PA2 Checkpoint #5](https://github.com/tsung-wei-huang/ece5960-physical-design/issues/4) | - |
 | 2022/11/14 | PM2 Review | - | - | - | - |
-| 2022/11/16 | [Presentation: Placement](https://github.com/tsung-wei-huang/ece5960-physical-design/issues/12) | - | - | [PA2 Checkpoint #6](https://github.com/tsung-wei-huang/ece5960-physical-design/issues/4) | - |
+| 2022/11/16 | [Presentation: Placement](https://github.com/tsung-wei-huang/ece5960-physical-design/issues/12) | - | - | [PA2 Final](https://github.com/tsung-wei-huang/ece5960-physical-design/issues/3) | - |
 | 2022/11/21 | Timing Analysis (I) | [lecture19](Lectures/lecture19.pdf) | - | - | - |
 | 2022/11/23 | Happy Thanksgiving! | - | - | - | - |
 | 2022/11/28 | Timing Analysis (II) | [lecture20](Lectures/lecture20.pdf) | - | - | [OpenTimer](Lectures/lecture20-OpenTimer.pdf)  |
